@@ -92,8 +92,8 @@ The system is powered by real-time data from the **ClinicalTrials.gov API v2**.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/BozyelOzan/clinical-insight-agent.git
-cd clinical-insight-agent
+git clone https://github.com/BozyelOzan/Clinical-Insight-Agent.git
+cd Clinical-Insight-Agent
 ```
 
 ---
